@@ -5,7 +5,6 @@ path = './automation/p1/imgs'
 pathOut = '/automation/p1/editedImgs'
 
 
-print(os.listdir(path))
 
 for filename in os.listdir(path):
     img = Image.open(f"{path}\\{filename}")
